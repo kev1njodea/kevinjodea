@@ -29,7 +29,7 @@ services:
       - NAME=Kevin James O'Dea
       - BIO=Linux Systems Administrator @ualibraries
       # use ENV variable names for order, listed buttons will be boosted to the top
-      - BUTTON_ORDER=UAL,LINKED_IN,GITHUB,INSTAGRAM,BANDCAMP,YOUTUBE
+      - BUTTON_ORDER=UAL,LINKED_IN,GITHUB,INSTAGRAM,BANDCAMP
       # you can render an unlimited amount of custom buttons by adding
       # the CUSTOM_BUTTON_* variables and by using a comma as a separator.
       - CUSTOM_BUTTON_TEXT=UArizona Libraries
@@ -43,7 +43,6 @@ services:
       - INSTAGRAM=https://instagram.com/kevinjodea
       - LINKED_IN=https://www.linkedin.com/in/kevinjodea/
       - BANDCAMP=https://bandcamp.com/kevinjodea
-      - YOUTUBE=https://www.youtube.com/@KevinJODea
       - FOOTER=Go Vegan 🌱
     restart: unless-stopped
     security_opt:
